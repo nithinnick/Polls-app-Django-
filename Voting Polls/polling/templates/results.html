@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1 class="mb-5 text-center">{{ question.question_text }}</h1>
+<h1 class="mb-5 text-center">{{ choice.question_text }}</h1>
 
 <ul class="list-group mb-5">
 	{% for choice in choice.choice_set.all %}
